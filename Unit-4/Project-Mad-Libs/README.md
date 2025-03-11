@@ -40,7 +40,7 @@ print("This is " + "\033[31mred" + "\033[0m!")
 ```
 prints:
 
-![image here]()
+![image here](https://github.com/MrFritzBHS/Intro-to-Programming-Python/blob/main/Unit-4/Project-Mad-Libs/redText.png?raw=true)
 
 The key is to use the proper esacpe codes. They must be place immediately before any text you'd like to change. To break this down:
 
@@ -56,5 +56,5 @@ Be sure to set your text *back* to black.
 print("I like to eat " + "\033[32m" + word + "\033[0m every day!")
 ```
 
-![image here]()
+![image here](https://github.com/MrFritzBHS/Intro-to-Programming-Python/blob/main/Unit-4/Project-Mad-Libs/greenText.png?raw=true)
 
