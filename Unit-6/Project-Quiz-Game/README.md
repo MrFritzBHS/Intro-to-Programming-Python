@@ -1,17 +1,20 @@
-**Description:**
+# Quiz Game
+
 Create a simple multiple-choice quiz game using Python. The program should ask the user a series of questions and check their answers. After all the questions have been answered, the program should display the final score.
 
-**Requirements:**
+## Sample
 
-1. The user will choose between three topics, and then be given three questions in that topic.
-2. The quiz should consist of at least 9 questions. (3 per topic)
-2. Each question should have multiple choices, and the user should input their answer.
-3. The program should compare the user's answer with the correct answer using conditional branching (`if` statements).
-4. Keep track of the user's score and display it at the end of the quiz.
-5. You can assume the user will enter only lowercase letters (but for a challenge, have the program function correctly with uppercase letters as well!)
-6. Use meaningful prompts for questions and provide feedback on whether the answer is correct or incorrect.
+Try out a sample version of the Quiz Game [here](https://codehs.com/sandbox/stefanfritz/quiz-game-example/run)
 
-**Example Output:**
+## Requirements
+
+|Grade|Requirements|
+|:-:|:-|
+|C|<ol><li>A welcome message is printed to the user</li><li>The user is presented a quiz with 3 multiple-choice questions one at a time</li><li>The program compares the user's answer with the correct answer using conditional branching (`if` statements) and prints either `"Correct!"` or `"Incorrect"`</li></ol>|
+|B|<ol><li>A welcome message is printed to the user</li><li>Allows the user to choose between *two* topics, each with their own set of three questions</li><li>The program compares the user's answer with the correct answer using conditional branching (`if` statements) and prints either `"Correct!"` or `"Incorrect"`.</li><li>When the user guesses incorrectly, print out the correct answer</li><li>After the quiz is complete, tell the user how many times they were correct</li></ol>|
+|A|<ol><li>A welcome message is printed to the user</li><li>Allows the user to choose between *three* topics, each with their own set of three questions</li><li>The program compares the user's answer with the correct answer using conditional branching (`if` statements) and prints either `"Correct!"` or `"Incorrect"`.</li><li>The user's guess is case *IN*sensitive meaning if the correct answer is `"a"` the user can type either `"a"` or `"A"`</li><li>When the user guesses incorrectly, print out the correct answer</li><li>After the quiz is complete, tell the user how many times they were correct</li><li>After the quiz is over, print out a different statement depending on the number correct. (Ex: `"You got them all!"`, `"Keep practicing, almost there"`, `"Looks like you need to study"`, etc)</li><li>Includes comments that indicate each section of the quiz (Ex: `# Geography Questions Below`)</li></ol>|
+
+## Example Output
 
 ```
 Welcome to the Multiple-Choice Quiz Game!
