@@ -12,7 +12,7 @@ Here's what it looks like (type this at the top of your code):
 ```python
 import random
 
-# wherever you're storing the secret number:
+# store the secret number:
 secret_num = random.randint(1,100)
 ```
 
