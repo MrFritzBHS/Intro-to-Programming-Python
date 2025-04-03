@@ -23,3 +23,7 @@ This would store a random number from 1 to 100 (inclusive).
 If the user is within 5 of the correct answer, tell them "Close!"
 
 For example if the secret number is 25, and the guess is 20, print `"Close!"`. This should also work for the guess 30.
+
+## But what was the secret number??
+
+In the `for` loop example, if the user cannot correctly guess within 5 guesses, tell them the correct answer.
