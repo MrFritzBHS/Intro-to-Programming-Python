@@ -58,6 +58,7 @@ You answered 1 out of 3 questions correctly.
 
 ## Tips
 
+### Score Keeping
 You can keep track of the score by adding to a counter variable like so:
 
 ```python
@@ -68,4 +69,14 @@ if answer is correct:
     num_correct = num_correct + 1
 else:
     print("Incorrect. The correction answer was...")
+```
+
+### Ignoring case/capitalization
+
+You can force a letter to be uppercase then make the comparison to the correct answer (which must also be in uppercase). 
+
+```python
+guess = input("Enter your guess: ")   # user enters a
+if guess.upper() == "A":              # forces guess to become A
+  print("Correct!")
 ```
